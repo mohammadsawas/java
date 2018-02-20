@@ -5,6 +5,7 @@ import oop.optional.OptionalLecture;
 import java.util.Optional;
 import java.util.Random;
 
+//one class
 public class optional {
     public Optional<TakePhoto> TakingSomePhotos(){
         if(iAmSick()){
