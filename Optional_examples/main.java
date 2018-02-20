@@ -4,7 +4,7 @@ import java.util.Optional;
 
 public class main {
     public static void main(String[] args) {
-//just try//
+//just
         optional taker = new optional();
         Optional<TakePhoto> photo = taker.TakingSomePhotos();
         if (photo.isPresent()){
