@@ -11,5 +11,8 @@ public class do_while {
             System.out.println("bro");
             i ++;
         }while(number> i );
+	System.out.println("this is just try");
+
+	
     }
 }
