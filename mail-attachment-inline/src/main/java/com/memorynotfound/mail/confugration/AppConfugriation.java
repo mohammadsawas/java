@@ -24,6 +24,7 @@ public class AppConfugriation {
 
             Mail mail = new Mail();
             mail.setFrom("no-reply@memorynotfound.com");
+	//set the person name that you want to send to.
             mail.setTo("@gmail.com");
             mail.setSubject("Sending Email with Inline Attachment Example");
             mail.setContent("welcome bro");
