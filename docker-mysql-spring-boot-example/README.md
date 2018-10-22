@@ -17,8 +17,8 @@ Command to run the mysql container
 From the directory of Dockerfile - `docker build . -t 'name of the jar '`
 
 5. Run the Docker image (that u created) for example #4.
- `docker run -p 8086:8086 --name users-mysql.jar --link mysql-standalone:mysql -d users-mysql.jar`
- `docker run -p <port>:<port> --name <imageName> --link <name of the container for mysql>:mysql -d <imagename>`
+ - `docker run -p 8086:8086 --name users-mysql.jar --link mysql-standalone:mysql -d users-mysql.jar`
+ - `docker run -p <port>:<port> --name <imageName> --link <name of the container for mysql>:mysql -d <imagename>`
  - and the application should be running :) 
 ## Useful Docker commands
 - `docker images`
